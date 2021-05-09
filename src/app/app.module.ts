@@ -17,11 +17,14 @@ import { EditSessionComponent } from './components/edit-session/edit-session.com
 import { HeaderComponent } from './components/header/header.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { LoginComponent } from './services/login/login.component';
-import { ProgramCommitteeComponent } from './services/program-committee/program-committee.component';
+import { ProgramCommitteeComponent } from './model/program-committee/program-committee.component';
 import { UserComponent } from '../app/model/user/user.component';
 import { LoginUserBodyComponent } from './model/login-user-body/login-user-body.component';
 import { PcdtoComponent } from './model/pcdto/pcdto.component';
 import { UserdtoComponent } from './model/userdto/userdto.component';
+import { UserTypeComponent } from './model/user-type/user-type.component';
+import { ConferencePhaseComponent } from './model/conference-phase/conference-phase.component';
+import { ConferenceComponent } from './model/conference/conference.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +48,10 @@ import { UserdtoComponent } from './model/userdto/userdto.component';
     UserComponent,
     LoginUserBodyComponent,
     PcdtoComponent,
-    UserdtoComponent
+    UserdtoComponent,
+    UserTypeComponent,
+    ConferencePhaseComponent,
+    ConferenceComponent
   ],
   imports: [
     BrowserModule
