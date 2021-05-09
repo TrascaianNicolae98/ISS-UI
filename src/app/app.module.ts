@@ -16,6 +16,12 @@ import { CreateConferenceComponent } from './components/create-conference/create
 import { EditSessionComponent } from './components/edit-session/edit-session.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { LoginComponent } from './services/login/login.component';
+import { ProgramCommitteeComponent } from './services/program-committee/program-committee.component';
+import { UserComponent } from '../app/model/user/user.component';
+import { LoginUserBodyComponent } from './model/login-user-body/login-user-body.component';
+import { PcdtoComponent } from './model/pcdto/pcdto.component';
+import { UserdtoComponent } from './model/userdto/userdto.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +39,13 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     CreateConferenceComponent,
     EditSessionComponent,
     HeaderComponent,
-    HomepageComponent
+    HomepageComponent,
+    LoginComponent,
+    ProgramCommitteeComponent,
+    UserComponent,
+    LoginUserBodyComponent,
+    PcdtoComponent,
+    UserdtoComponent
   ],
   imports: [
     BrowserModule
