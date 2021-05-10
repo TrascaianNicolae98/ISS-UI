@@ -2,56 +2,40 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { AllReviewsComponent } from './components/all-reviews/all-reviews.component';
-import { AssignReviewerComponent } from './components/assign-reviewer/assign-reviewer.component';
-import { AuthorHomeComponent } from './components/author-home/author-home.component';
-import { AuthorPapersComponent } from './components/author-papers/author-papers.component';
-import { AuthorRegisterComponent } from './components/author-register/author-register.component';
-import { AuthorReviewsComponent } from './components/author-reviews/author-reviews.component';
-import { BiddingComponent } from './components/bidding/bidding.component';
-import { BuyTicketComponent } from './components/buy-ticket/buy-ticket.component';
-import { ChairHomeComponent } from './components/chair-home/chair-home.component';
-import { CheckoutComponent } from './components/checkout/checkout.component';
-import { CreateConferenceComponent } from './components/create-conference/create-conference.component';
-import { EditSessionComponent } from './components/edit-session/edit-session.component';
-import { HeaderComponent } from './components/header/header.component';
-import { HomepageComponent } from './components/homepage/homepage.component';
-import { LoginComponent } from './services/login/login.component';
-import { ProgramCommitteeComponent } from './model/program-committee/program-committee.component';
-import { UserComponent } from '../app/model/user/user.component';
-import { LoginUserBodyComponent } from './model/login-user-body/login-user-body.component';
-import { PcdtoComponent } from './model/pcdto/pcdto.component';
-import { UserdtoComponent } from './model/userdto/userdto.component';
-import { UserTypeComponent } from './model/user-type/user-type.component';
-import { ConferencePhaseComponent } from './model/conference-phase/conference-phase.component';
-import { ConferenceComponent } from './model/conference/conference.component';
+import { LoginComponent } from './components/login/login.component';
+import { ManagePcComponent } from './components/manage-pc/manage-pc.component';
+import { ManageSessionComponent } from './components/manage-session/manage-session.component';
+import { PaperDetailDecisionComponent } from './components/paper-detail-decision/paper-detail-decision.component';
+import { PaperDetailComponent } from './components/paper-detail/paper-detail.component';
+import { PaymentComponent } from './components/payment/payment.component';
+import { PcDetailComponent } from './components/pc-detail/pc-detail.component';
+import { PcHomeComponent } from './components/pc-home/pc-home.component';
+import { PcRegisterComponent } from './components/pc-register/pc-register.component';
+import { PcReviewComponent } from './components/pc-review/pc-review.component';
+import { RegisterComponent } from './components/register/register.component';
+import { StructureConferenceComponent } from './components/structure-conference/structure-conference.component';
+import { SuccessBuyComponent } from './components/success-buy/success-buy.component';
+import { UpdateConferenceComponent } from './components/update-conference/update-conference.component';
+import { UploadAbstractComponent } from './components/upload-abstract/upload-abstract.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AllReviewsComponent,
-    AssignReviewerComponent,
-    AuthorHomeComponent,
-    AuthorPapersComponent,
-    AuthorRegisterComponent,
-    AuthorReviewsComponent,
-    BiddingComponent,
-    BuyTicketComponent,
-    ChairHomeComponent,
-    CheckoutComponent,
-    CreateConferenceComponent,
-    EditSessionComponent,
-    HeaderComponent,
-    HomepageComponent,
     LoginComponent,
-    ProgramCommitteeComponent,
-    UserComponent,
-    LoginUserBodyComponent,
-    PcdtoComponent,
-    UserdtoComponent,
-    UserTypeComponent,
-    ConferencePhaseComponent,
-    ConferenceComponent
+    ManagePcComponent,
+    ManageSessionComponent,
+    PaperDetailDecisionComponent,
+    PaperDetailComponent,
+    PaymentComponent,
+    PcDetailComponent,
+    PcHomeComponent,
+    PcRegisterComponent,
+    PcReviewComponent,
+    RegisterComponent,
+    StructureConferenceComponent,
+    SuccessBuyComponent,
+    UpdateConferenceComponent,
+    UploadAbstractComponent
   ],
   imports: [
     BrowserModule
