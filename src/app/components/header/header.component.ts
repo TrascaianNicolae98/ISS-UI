@@ -1,10 +1,11 @@
 import {Component, OnInit} from '@angular/core';
-import {User} from '../../model/user/user.component';
+import {User} from '../../model/user';
 import {Router} from '@angular/router';
-import {AuthenticationService} from '../../services/login/login.component';
-import {ConferenceService} from '../../services/conference/conference.component';
-import {UserType} from '../../model/user-type/user-type.component';
-import {ConferencePhase} from '../../model/conference-phase/conference-phase.component';
+import {AuthenticationService} from '../../services/login';
+import {ConferenceService} from '../../services/conference/conference.service';
+import {UserType} from '../../model/userType';
+import {ConferencePhase} from '../../model/conferencePhase';
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -90,8 +91,8 @@ export class HeaderComponent implements OnInit {
       } else if (result === 'third') {
         this.currentPhase = ConferencePhase.THIRD;
       }
-      else {
-        this.currentPhase = ConferencePhase.FINISHED;
+        else {
+          this.currentPhase = ConferencePhase.FINISHED;
       }
     });
   }

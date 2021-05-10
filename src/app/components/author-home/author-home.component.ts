@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
-import {AuthenticationService} from "../../services/login/login.component";
+import {AuthenticationService} from "../../services/login";
 
 @Component({
   selector: 'app-author-home',
