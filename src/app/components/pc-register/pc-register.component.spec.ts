@@ -1,17 +1,17 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { PcRegisterComponent } from './pc-register.component';
+import {PcRegisterComponent} from './pc-register.component';
 
 describe('PcRegisterComponent', () => {
   let component: PcRegisterComponent;
   let fixture: ComponentFixture<PcRegisterComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ PcRegisterComponent ]
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [PcRegisterComponent]
     })
-    .compileComponents();
-  });
+      .compileComponents();
+  }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(PcRegisterComponent);
