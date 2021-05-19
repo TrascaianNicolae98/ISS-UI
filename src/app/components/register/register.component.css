@@ -40,8 +40,8 @@ body {
 
 .homeButton {
   position: relative;
-  background-color: #b5202e;
-  color: white;
+  background-color: white;
+  color: black;
   width: 1%;
   height: 80%;
   margin-left: 0.2%;
@@ -49,7 +49,7 @@ body {
 }
 
 .homeButton:hover {
-  background-color: #e12032;
+  background-color: darkgrey;
 }
 
 .main {
@@ -63,5 +63,5 @@ body {
   position: absolute;
   width: 100%;
   height: 50px;
-  background-color: #19265c;
+  background-color: grey;
 }

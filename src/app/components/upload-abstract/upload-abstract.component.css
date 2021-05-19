@@ -18,8 +18,12 @@
 .abstract-button {
   flex-grow: 1;
   min-width: 100%;
+  background-color: darkblue;
 }
+.abstract-button:hover{
+  background-color: lightblue;
 
+}
 .hint {
   position: absolute;
   left: 5px;

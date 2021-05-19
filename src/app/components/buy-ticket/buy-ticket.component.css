@@ -19,28 +19,28 @@
 
   position: absolute;
   right: 4%;
-  background-color: #225e93;
+  background-color: darkblue;
   color: white;
   width: 40%;
 }
 
 .buy-another-button:hover
 {
-  background-color: #2e8dda;
+  background-color: lightblue;
 }
 
 .checkout-button
 {
   position: relative;
   margin-left: 0;
-  background-color: #50a000;
+  background-color: darkblue;
   color: white;
   width: 43%;
 }
 
 .checkout-button:hover
 {
-  background-color: #5eb500;
+  background-color: lightblue;
 }
 
 #costText
@@ -64,8 +64,8 @@
 
 .homeButton {
   position: relative;
-  background-color: #b5202e;
-  color: white;
+  background-color: white;
+  color: black;
   width: 1%;
   height: 80%;
   margin-left: 0.2%;
@@ -74,7 +74,7 @@
 }
 
 .homeButton:hover {
-  background-color: #e12032;
+  background-color: lightgrey;
 }
 
 #error
@@ -99,5 +99,5 @@
   width: 100%;
   height: 50px;
   top: 0;
-  background-color: #19265c;
+  background-color: grey;
 }

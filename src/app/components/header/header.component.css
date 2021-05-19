@@ -25,7 +25,7 @@ button:hover {
 .example-button-row {
   top: 0;
   position: relative;
-  background-color: #19265c;
+  background-color: grey;
   height: 60px;
   width: 100%;
 }
@@ -35,22 +35,26 @@ nav a {
   text-decoration: none;
   margin-top: 10px;
   display: inline-block;
-  background-color: #eee;
+  background-color: black;
   border-radius: 4px;
 }
 
 #logoutButton {
   position: absolute;
-  background-color: #bf0000;
+  background-color: white;
   right: 1%;
+  color:black;
 }
 
 #logoutButton:hover {
-  background-color: #ee0000;
+  background-color: lightgrey;
 }
 
 #homeButton {
-
+  background-color: white;
+  color:black;
+  border-radius: 3px;
+  width:50px;
 }
 
 nav a:visited, a:link {
@@ -153,7 +157,7 @@ li {
   -moz-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
-  border-radius: 300px;
+  /*border-radius: 300px;*/
   z-index: 1;
   border-width: 4px;
   border-style: solid;
